@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book-shop</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./responsive/resposive.css">
+</head>
+
+<body>
+
+  <nav class="navbar-fixed">
+    <div class="nav-logo"><a href="#"><img src="assets/img/Лого.png" alt=""></a></div>
+    <ul class="ul-desktop">
+      <li><a href="#">Stock</a></li>
+      <li><a href="#">Catalog</a></li>
+      <li><a href="#">Delivery</a></li>
+      <li><a href="#">About Store</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+    <div class="searchbar-desktop">
+      <input class="search" type="search" placeholder="Search">
+    </div>
+    <div class="nav-end-bar">
+      <div class="nav-like"><a href="#"><img src="assets/img/akar-icons_heart.svg" alt=""></a></div>
+      <div class="nav-shop"><a href="#"><img src="assets/img/cil_cart.svg" alt=""></a></div>
+      <div class="nav-price">
+        <p>2 228</p>
+        <select class="n-select">
+          <option>grn</option>
+          <option>usd</option>
+          <option>rub</option>
+          <option>uzs</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="gamburger-menu">
+      <div class="menu"></div>
+    </div>
+
+    <div class="nav-fixer">
+      <div class="top">
+        <div class="nav-end-bar nav-end-bar-mobile">
+          <div class="nav-like nav-status"><a href="#"><img src="assets/img/akar-icons_heart.svg" alt=""></a></div>
+          <div class="nav-shop nav-status"><a href="#"><img src="assets/img/cil_cart.svg" alt=""></a></div>
+          <div class="nav-price">
+            <p>2 228</p>
+            <select class="n-select">
+              <option>grn</option>
+              <option>usd</option>
+              <option>rub</option>
+              <option>uzs</option>
+            </select>
+          </div>
+        </div>
+        <div class="clear-btn"></div>
+      </div>
+      <div class="searchbar-mobile">
+        <input type="search" placeholder="Search" required>
+        <button type="submit">Search</button>
+      </div>
+      <div class="ul-mobile">
+        <li><a href="#">Stock</a></li>
+        <li><a href="#">Catalog</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">About Store</a></li>
+        <li><a href="#">Blog</a></li>
+      </div>
+    </div>
+
+    <div class="nav-bg"></div>
+
+  </nav>
+
+  <header class="part-1 part-all">
+    <div class="head-left">
+      <div class="head-text">
+        <h1>Books from A to Z</h1>
+        <p>
+          In our store you can find a book for every taste. A large assortment. Nice prices. Interesting stories.
+        </p>
+        <button>Go to catalog</button>
+      </div>
+    </div>
+    <div class="head-right"></div>
+  </header>
+
+  <section class="part-2 part-all">
+    <div class="filter">
+      <h1 class="filter-text">Hot arrivals</h1>
+      <div class="filter-btn">
+        <div class="f-btn"><a href="#">Fantastic</a></div>
+        <div class="f-btn"><a href="#">Self-development</a></div>
+        <div class="f-btn"><a href="#">Detectives</a></div>
+        <div class="f-btn"><a href="#">Children's</a></div>
+        <div class="f-btn"><a href="#">Audiobooks</a></div>
+        <div class="f-btn"><a href="#">Other</a></div>
+      </div>
+
+      <div class="filter-btn-tablet">
+        <select>
+          <option>Fantastic</option>
+          <option>Self-development</option>
+          <option>Detectives</option>
+          <option>Children's</option>
+          <option>Audiobooks</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="card-book">
+      <div class="prev transfer">
+        <div class="center prev-center"></div>
+        <div class="center-tablet prev-center-tablet"></div>
+      </div>
+
+      <div class="transfer-mobile">
+        <div class="mobile-prev right"></div>
+        <div class="mobile-next right"></div>
+      </div>
+
+      <div class="card-hidden">
+        <div class="card first-card" id="first-card">
+          <img src="assets/img/book1.png" alt="">
+          <h1><big>300</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book2.png" alt="">
+          <h1><big>225</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book3.png" alt="">
+          <h1><big>86</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book4.png" alt="">
+          <h1><big>214</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book5.png" alt="">
+          <h1><big>778</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book1.png" alt="">
+          <h1><big>300</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book2.png" alt="">
+          <h1><big>225</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book3.png" alt="">
+          <h1><big>86</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book4.png" alt="">
+          <h1><big>214</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book5.png" alt="">
+          <h1><big>778</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div class="next transfer">
+        <div class="center next-center"></div>
+        <div class="center-tablet next-center-tablet"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="part-2 part-3 part-all">
+    <div class="filter">
+      <h1 class="filter-text">Sale</h1>
+    </div>
+
+    <div class="card-book">
+      <div class="prev transfer">
+        <div class="center prev-center-2"></div>
+        <div class="center-tablet prev-center-2-tablet"></div>
+      </div>
+
+      <div class="transfer-mobile">
+        <div class="mobile-prev2 right"></div>
+        <div class="mobile-next2 right"></div>
+      </div>
+
+      <div class="card-hidden">
+        <div class="card second-card" id="first-card">
+          <img src="assets/img/book1.png" alt="">
+          <h1><big>300</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book2.png" alt="">
+          <h1><big>225</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book3.png" alt="">
+          <h1><big>86</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book4.png" alt="">
+          <h1><big>214</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book5.png" alt="">
+          <h1><big>778</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book1.png" alt="">
+          <h1><big>300</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book2.png" alt="">
+          <h1><big>225</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book3.png" alt="">
+          <h1><big>86</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book4.png" alt="">
+          <h1><big>214</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/img/book5.png" alt="">
+          <h1><big>778</big> grn</h1>
+          <h2>Order in Chaos</h2>
+          <p>Konstantin Koptelov</p>
+          <div class="btn">
+            <button>Add to cart</button>
+            <input type="checkbox">
+            <div class="like-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div class="next transfer">
+        <div class="center next-center-2"></div>
+        <div class="center-tablet next-center-2-tablet"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="part-4 part-all">
+    <div class="catalog">
+      <h1>Catalog</h1>
+      <div class="catalog-card">
+        <div class="card">Book</div>
+        <div class="card">E-books</div>
+        <div class="card">Audiobooks</div>
+        <div class="card">Toys, creativity</div>
+        <div class="card">Book accessories</div>
+        <div class="card">Notepads</div>
+        <div class="card">Board games</div>
+        <div class="card">Present</div>
+        <div class="card">Stock</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="part-5 part-all">
+    <div class="about-store">
+      <h1>About Store</h1>
+      <div class="statistics">
+        <div class="p1 p-all">
+          <h2>35</h2>
+          <p>Branches throughout the country</p>
+        </div>
+        <div class="p2 p-all">
+          <h2>898</h2>
+          <p>Products in the catalog</p>
+        </div>
+        <div class="p3 p-all">
+          <h2>8659</h2>
+          <p>Buyers</p>
+        </div>
+        <div class="p4 p-all">
+          <h2>72</h2>
+          <p>Chasoa delivery by city</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="delivery">
+      <h1>Delivery</h1>
+      <p>
+        We work without holidays and weekends! Residents of Kyiv can receive their order on the day it is placed.
+        Customers from other cities of Ukraine can receive their order within 1-5 days, depending on the location of the
+        city and the chosen delivery method. Orders over 1000 UAH are delivered free*. You can see the available
+        methods, exact delivery times and costs during checkout in the order basket, after selecting the delivery city.
+      </p>
+      <a href="#">More details</a>
+    </div>
+  </section>
+
+  <section class="part-6 part-all">
+    <h1>Follow us on social networks</h1>
+    <div class="follow">
+      <a class="a1 a-all" href="#"><img src="assets/img/facebook.png" alt=""></a>
+      <a class="a2 a-all" href="#"><img src="assets/img/twitter.png" alt=""></a>
+      <a class="a3 a-all" href="#"><img src="assets/img/vk.png" alt=""></a>
+      <a class="a4 a-all" href="#"><img src="assets/img/instagram.png" alt=""></a>
+      <a class="a5 a-all" href="#"><img src="assets/img/youtube.png" alt=""></a>
+    </div>
+    <div class="follow-fixer"></div>
+  </section>
+
+  <footer class="part-all">
+    <div class="top">
+      <div class="logo-foot"><a href="#"><img src="assets/img/logo-foot.png" alt=""></a></div>
+
+      <div class="links">
+        <div class="left link-all">
+          <h2>Popular</h2>
+          <a href="#">Programming</a>
+          <a href="#">Books for children</a>
+          <a href="#">Psychology</a>
+          <a href="#">Business</a>
+        </div>
+        <div class="center link-all">
+          <h2>Information</h2>
+          <a href="#">Delivery</a>
+          <a href="#">Payment</a>
+          <a href="#">About the store</a>
+        </div>
+        <div class="right link-all">
+          <h2>Help</h2>
+          <a href="#">Contacts</a>
+          <a href="#">Purchase returns</a>
+          <a href="#">Buyer assistance</a>
+        </div>
+      </div>
+
+      <div class="connect">
+        <p>+998 (91) 781-79-49</p>
+        <button><a href="#">Request a call</a></button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/java.js"></script>
+</body>
+
+</html>

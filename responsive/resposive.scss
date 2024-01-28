@@ -1,0 +1,343 @@
+@import url(../styles/style.css);
+
+@media screen and (max-width: 768px) {
+  .navbar-fixed{
+    padding: 10px 30px;
+    .ul-desktop{
+      display: none;
+    }
+    .nav-end-bar{
+      width: 150px;
+      .nav-like img, .nav-shop img{
+        width: 25px;
+      }
+    }
+
+    .nav-fixer{
+      .nav-end-bar-mobile{
+        display: none;
+      }
+    }
+    .gamburger-menu{
+      display: flex;
+    }
+  }
+
+  header{
+    flex-direction: column;
+    justify-content: end;
+    .head-left{
+      width: 100%;
+      height: fit-content;
+      .head-text{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        p{
+          text-align: center;
+          max-width: 700px;
+        }
+      }
+    }
+    .head-right{
+      width: 100%;
+      height: 60%;
+      margin-top: 50px;
+      background-size: 80%;
+    }
+  }
+
+  
+  .part-2{
+    height: calc(100vh - 300px);
+    padding: 10px ;
+    margin-top: 100px;
+    .filter{
+      padding: 0 75px;
+      .filter-btn{
+        display: none;
+      }
+
+      .filter-btn-tablet{
+        display: flex;
+      }
+    }
+
+    .card-book{
+      .transfer{
+        .center{
+          display: none;
+        }
+
+        .center-tablet{
+          display: flex;
+        }
+      }
+
+      .next{
+        .center{
+          display: none;
+        }
+
+        .center-tablet{
+          display: flex;
+        }
+      }
+
+      .card-hidden{
+        padding-left: 20px;
+        .card{
+          padding: 15px;
+          margin: 0 15px;
+          width: 175px;
+
+          h1{
+            font-size: 18px;
+            margin: 8px 0;
+          }
+
+          h2{
+            font-size: 14px;
+          }
+        }
+
+        #first-card{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .part-4{
+    margin: 100px 0;
+    overflow: hidden;
+    .catalog{
+      .catalog-card{
+        justify-content: space-around;
+      }
+    }
+  }
+
+  .part-5{
+    .about-store{
+      max-width: 100%;
+      .statistics{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        .p-all{
+          margin: 0;
+          align-items: center;
+          width: 325px;
+        }
+      }
+    }
+  }
+
+  footer{
+    .top{
+      width: 100%;
+      flex-direction: column;
+      .links{
+        margin: 30px 0;
+        justify-content: space-around;
+        width: 100%;
+        .link-all{
+          text-align: center;
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar-fixed{
+    .searchbar-desktop{
+      display: none;
+    }
+
+    .nav-end-bar{
+      display: none;
+    }
+
+    .nav-fixer{
+      display: none;
+      width: 100%;
+
+      .top{
+        display: flex;
+        width: 91%;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 10px 0;
+
+        
+        .nav-end-bar-mobile{
+          width: fit-content;
+          display: flex;
+          justify-content: space-between;
+
+          .nav-status{
+            width: 45px;
+            height: 45px;
+            a{
+              img{
+                width: 100%;
+              }
+            }
+          }
+
+          .nav-like{
+            width: 40px;
+            margin-right: 10px;
+          }
+
+          .nav-price{
+            color: var(--white);
+            width: 100px;
+            margin-left: 20px;
+
+            .n-select{
+              outline: none;
+              border: none;
+              
+              &:optional{
+                outline: none;
+                border: none;
+                // background: ;
+                color: black;
+              }
+            }
+          }
+        }
+
+        .clear-btn{
+          margin: 0;
+        }
+      }
+
+      .searchbar-mobile{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin: 20px 0;
+        input{
+          padding: 5px 15px;
+          background: transparent;
+          border: none;
+          outline: none;
+          border-bottom: solid 1px var(--brown);
+          color: var(--white);
+          font-size: 16px;
+        }
+
+        button{
+          padding: 10px 15px;
+          outline: none;
+          border: solid 1px var(--brown);
+          background: transparent;
+          color: var(--white);
+
+          &:hover{
+            color: var(--white);
+            background: var(--brown);
+            box-shadow: 0 0 20px var(--brown);
+          }
+        }
+      }
+
+      .ul-mobile{
+        margin: 0 20px;
+        li{
+          a{
+            font-size: 30px;
+          }
+        }
+        &::before{
+          display: none;
+        }
+      }
+    }
+  }
+
+  .part-1{
+    display: flex;
+    
+    .head-left{
+      .head-text{
+        h1{
+          font-size: 30px;
+        }
+        p{
+          width: 300px;
+        }
+      }
+    }
+  }
+
+  .part-2{
+    display: flex;
+    padding: 0;
+    height: fit-content;
+    .filter{
+      padding: 0 20px;
+    }
+    .card-book{
+      flex-direction: column;
+      width: 100%;
+      padding: 10px 0;
+      .transfer{
+        display: none;
+      }
+
+      .transfer-mobile{
+        display: flex;
+        height: 50px;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+
+        .right{
+          height: 50px;
+          width: 50px;
+          margin: 0 10px;
+          border-radius: 100%;
+          background-image: url(../assets/img/prev.png);
+          background-repeat: no-repeat;
+          background-position: 13px center;
+          background-size: 17px;
+          box-shadow: 0 0 10px gray;
+          cursor: pointer;
+        }
+        
+        .mobile-next, .mobile-next2{
+          background-position: 18px center;
+          background-image: url(../assets/img/next.png);
+        }
+      }
+
+      .card-hidden{
+        width: 100%;
+      }
+    }
+  }
+
+  .part-6{
+    display: flex;
+    h1{
+      text-align: center;
+    }
+  }
+
+  footer{
+    .top{
+      .links{
+        .link-all{
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}

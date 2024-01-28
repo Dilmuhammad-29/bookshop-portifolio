@@ -1,0 +1,271 @@
+@import url(../styles/style.css);
+@media screen and (max-width: 768px) {
+  .navbar-fixed {
+    padding: 10px 30px;
+  }
+  .navbar-fixed .ul-desktop {
+    display: none;
+  }
+  .navbar-fixed .nav-end-bar {
+    width: 150px;
+  }
+  .navbar-fixed .nav-end-bar .nav-like img, .navbar-fixed .nav-end-bar .nav-shop img {
+    width: 25px;
+  }
+  .navbar-fixed .nav-fixer .nav-end-bar-mobile {
+    display: none;
+  }
+  .navbar-fixed .gamburger-menu {
+    display: flex;
+  }
+  header {
+    flex-direction: column;
+    justify-content: end;
+  }
+  header .head-left {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header .head-left .head-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .head-left .head-text p {
+    text-align: center;
+    max-width: 700px;
+  }
+  header .head-right {
+    width: 100%;
+    height: 60%;
+    margin-top: 50px;
+    background-size: 80%;
+  }
+  .part-2 {
+    height: calc(100vh - 300px);
+    padding: 10px;
+    margin-top: 100px;
+  }
+  .part-2 .filter {
+    padding: 0 75px;
+  }
+  .part-2 .filter .filter-btn {
+    display: none;
+  }
+  .part-2 .filter .filter-btn-tablet {
+    display: flex;
+  }
+  .part-2 .card-book .transfer .center {
+    display: none;
+  }
+  .part-2 .card-book .transfer .center-tablet {
+    display: flex;
+  }
+  .part-2 .card-book .next .center {
+    display: none;
+  }
+  .part-2 .card-book .next .center-tablet {
+    display: flex;
+  }
+  .part-2 .card-book .card-hidden {
+    padding-left: 20px;
+  }
+  .part-2 .card-book .card-hidden .card {
+    padding: 15px;
+    margin: 0 15px;
+    width: 175px;
+  }
+  .part-2 .card-book .card-hidden .card h1 {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  .part-2 .card-book .card-hidden .card h2 {
+    font-size: 14px;
+  }
+  .part-2 .card-book .card-hidden #first-card {
+    margin-left: 0;
+  }
+  .part-4 {
+    margin: 100px 0;
+    overflow: hidden;
+  }
+  .part-4 .catalog .catalog-card {
+    justify-content: space-around;
+  }
+  .part-5 .about-store {
+    max-width: 100%;
+  }
+  .part-5 .about-store .statistics {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .part-5 .about-store .statistics .p-all {
+    margin: 0;
+    align-items: center;
+    width: 325px;
+  }
+  footer .top {
+    width: 100%;
+    flex-direction: column;
+  }
+  footer .top .links {
+    margin: 30px 0;
+    justify-content: space-around;
+    width: 100%;
+  }
+  footer .top .links .link-all {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .navbar-fixed .searchbar-desktop {
+    display: none;
+  }
+  .navbar-fixed .nav-end-bar {
+    display: none;
+  }
+  .navbar-fixed .nav-fixer {
+    display: none;
+    width: 100%;
+  }
+  .navbar-fixed .nav-fixer .top {
+    display: flex;
+    width: 91%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .navbar-fixed .nav-fixer .top .nav-end-bar-mobile {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-fixed .nav-fixer .top .nav-end-bar-mobile .nav-status {
+    width: 45px;
+    height: 45px;
+  }
+  .navbar-fixed .nav-fixer .top .nav-end-bar-mobile .nav-status a img {
+    width: 100%;
+  }
+  .navbar-fixed .nav-fixer .top .nav-end-bar-mobile .nav-like {
+    width: 40px;
+    margin-right: 10px;
+  }
+  .navbar-fixed .nav-fixer .top .nav-end-bar-mobile .nav-price {
+    color: var(--white);
+    width: 100px;
+    margin-left: 20px;
+  }
+  .navbar-fixed .nav-fixer .top .nav-end-bar-mobile .nav-price .n-select {
+    outline: none;
+    border: none;
+  }
+  .navbar-fixed .nav-fixer .top .nav-end-bar-mobile .nav-price .n-select:optional {
+    outline: none;
+    border: none;
+    color: black;
+  }
+  .navbar-fixed .nav-fixer .top .clear-btn {
+    margin: 0;
+  }
+  .navbar-fixed .nav-fixer .searchbar-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  .navbar-fixed .nav-fixer .searchbar-mobile input {
+    padding: 5px 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px var(--brown);
+    color: var(--white);
+    font-size: 16px;
+  }
+  .navbar-fixed .nav-fixer .searchbar-mobile button {
+    padding: 10px 15px;
+    outline: none;
+    border: solid 1px var(--brown);
+    background: transparent;
+    color: var(--white);
+  }
+  .navbar-fixed .nav-fixer .searchbar-mobile button:hover {
+    color: var(--white);
+    background: var(--brown);
+    box-shadow: 0 0 20px var(--brown);
+  }
+  .navbar-fixed .nav-fixer .ul-mobile {
+    margin: 0 20px;
+  }
+  .navbar-fixed .nav-fixer .ul-mobile li a {
+    font-size: 30px;
+  }
+  .navbar-fixed .nav-fixer .ul-mobile::before {
+    display: none;
+  }
+  .part-1 {
+    display: flex;
+  }
+  .part-1 .head-left .head-text h1 {
+    font-size: 30px;
+  }
+  .part-1 .head-left .head-text p {
+    width: 300px;
+  }
+  .part-2 {
+    display: flex;
+    padding: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .part-2 .filter {
+    padding: 0 20px;
+  }
+  .part-2 .card-book {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .part-2 .card-book .transfer {
+    display: none;
+  }
+  .part-2 .card-book .transfer-mobile {
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  .part-2 .card-book .transfer-mobile .right {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    border-radius: 100%;
+    background-image: url(../assets/img/prev.png);
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    background-size: 17px;
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+  }
+  .part-2 .card-book .transfer-mobile .mobile-next, .part-2 .card-book .transfer-mobile .mobile-next2 {
+    background-position: 18px center;
+    background-image: url(../assets/img/next.png);
+  }
+  .part-2 .card-book .card-hidden {
+    width: 100%;
+  }
+  .part-6 {
+    display: flex;
+  }
+  .part-6 h1 {
+    text-align: center;
+  }
+  footer .top .links .link-all {
+    margin: 20px 0;
+  }
+}/*# sourceMappingURL=resposive.css.map */
